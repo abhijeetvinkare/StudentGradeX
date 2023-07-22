@@ -1,0 +1,17 @@
+.manage-student-main{
+    display: flex;
+    flex-direction: row;
+
+}
+.manage-student-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+
+.manage-student-div{
+    margin: 20px;
+}
+.student-table-div{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}

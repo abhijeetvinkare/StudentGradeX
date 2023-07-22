@@ -1,0 +1,20 @@
+.manage-classes-main{
+    display: flex;
+    flex-direction: row;
+}
+.manage-classes-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+
+.manage-classes-div{
+    margin: 20px;
+}
+.subject-table-div{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgba(0,0,0,.95)!important;
+}

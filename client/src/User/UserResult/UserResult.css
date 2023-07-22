@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+.final-result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.final-resul-main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mark-memo-logo-name-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mark-memo-side-logo{
+    width: 100px;
+    height: 100px;
+}
+.mark-memo-top-heading-h{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.mark-memo-heading-font{
+    font-size: 20px;
+}
+.mark-memo-head-para{
+    font-size: 13px;
+    text-align: center;
+    color: black;
+}
+hr.style2 {
+	border-top: 5px double #000000;
+}
+.memo-span0-div{
+    display: flex;
+}
+.memo-name-span{
+    width: 130px;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.memo-span0-para{
+    font-size: 14px;
+    font-weight: 500;
+}
+.mark-memo-papr-title-div{
+    display: flex;
+    justify-content: space-around;
+}
+.mark-memo-min-max-sapn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.mark-memo-papertitle-span{
+    width: 300px;
+}
+.mark-memo-credits-span{
+    width: 70px;
+    text-align: center;
+}
+.mark-memo-type-span{
+    width: 50px;
+    text-align: center;
+}
+.mark-memo-total-sapn{
+    width: 100px;
+    text-align: center;
+}
+.mark-memo-grd-span{
+    width: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
+.mark-memo-grdpts-span{
+    width: 50px;
+    text-align: center;
+}
+.mark-memo-earnedgrdpts-span{
+    width: 70px;
+    text-align: center;
+}
+.mark-memo-min-max-sapn-1{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.mark-memo-total-sapn-1{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mark-memo-total-span-total{
+    width: 263px;
+}
+.mark-memo-total-credits-span{
+    width: 382px;
+}
+.mark-memo-total-grd-pts{
+    margin-left: -10px;
+}
+.mark-memo-total-sapn-122{
+    margin-left: -10px;
+}
+.mark-memo-totalcreditsearned-span{
+    width: 264px;
+}
+.mark-memo-totalcreditsearned-span-credits{
+    width: 444px;
+}
+.mark-memo-last-sign-div{
+    display: flex;
+    justify-content: space-between;
+}
+.mark-memo-last-note-span{
+    width: 700px;
+    font-size: 12px;
+    text-align: justify;
+}
+.mark-memo-sign-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight:700;
+    color: black;
+    margin-top: -19px;
+}
+.mark-memo-last-director-span{
+    font-size: 13px;
+}
+.mark-memo-director-sign-img{
+    height: 50px;
+}
+.mark-memo-print-result-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+.btn-save-as-pdf{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-save-as-print{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mark-memo-note-for-printing-span{
+    font-size: 14.71px;
+    width: 300px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.mark-memo-note-for-printing-span-bold-note{
+    font-weight: bold;
+    color: black;
+    display: block;
+    text-align: center;
+}
+hr.style3 {
+	border: 2px dashed #000000;
+}
+
+#root.final-result {
+    background-color: white;
+}
+
+@media only screen and (max-width: 999px) {
+    .final-result-container {
+       transform: scale(0.8);
+    }
+  }
+
+@media only screen and (max-width: 808px) {
+    .final-result-container {
+       transform: scale(0.6);
+    }
+}
+
+@media only screen and (max-width: 606px) {
+    .final-result-container {
+       transform: scale(0.5);
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .final-result-container {
+       transform: scale(0.4);
+    }
+}
+
+
+@media only screen and (max-width: 404px) {
+    .final-result-container {
+        width: 100vw;
+        height: 100vh;
+       transform: scale(0.3);
+    }
+}

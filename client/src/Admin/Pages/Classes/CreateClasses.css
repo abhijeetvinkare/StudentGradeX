@@ -1,0 +1,91 @@
+.createclasses-main{
+    display: flex;
+    flex-direction: row;
+}
+.createclasses-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+.createclasses-form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createclasses-div{
+    width: 472px;
+    height: 372px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+}
+.createclass-box{
+    width: 470px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border-radius:20px;
+    transition: all .2s;
+}
+
+.createclass-box:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .createclasses-div:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+
+.create-class-form-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+.createclass-box-lable{
+    font-family: "Montserrat", sans-serif;
+    color: #ddd6d6;
+    margin-bottom: 10px;
+}
+
+select{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    height: 45px;
+    width: 400px;
+    padding: 10px;
+}
+.createclass-btn-create{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    width: 120px;
+    height: 48px;
+    border-radius: 6px;
+    margin-top:20px;
+    border-radius: 9px;
+    background: #d5f365;
+}
+.createclass-btn-create:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+   }
+   
+.createclass-btn-create:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+}

@@ -1,0 +1,131 @@
+.add-student-main{
+    display: flex;
+    flex-direction: row;
+
+}
+.add-student-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+
+.add-student-form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.add-student-div{
+    width: 602px;
+    height: 612px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 10px;
+    transition: all .3s;
+}
+.add-student-box{
+    width: 600px;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border-radius:10px;
+    transition: all .2s;
+}
+
+.add-student-box:hover {
+    transform: scale(0.99);
+    border-radius: 10px;
+   }
+   
+   .add-student-div:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+
+.add-student-form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-left: 30px;
+}
+.input-div-add-student{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.add-student-input-box{
+    height: 40px;
+    width: 380px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.add-student-select{
+    width: 380px;
+}
+.lbl-class{
+    padding-left: 77px;
+    padding-right: 10px;
+}
+.lbl-roll{
+    padding-left: 58px;
+    padding-right: 10px;
+}
+.lbl-name{
+    padding-right: 10px;
+}
+.lbl-email{
+    padding-left: 72px;
+    padding-right: 10px;
+}
+.lbl-mobile{
+    padding-left: 64px;
+    padding-right: 10px;
+}
+.lbl-batch{
+    padding-left: 32px;
+    padding-right: 10px;
+}
+.input-div-add-student-email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input-div-add-student-roll{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.add-student-btn-div{
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 860px) {
+    .add-student-box{
+        transform: scale(0.80);
+       }
+       .add-student-box:hover {
+        transform: scale(0.80);
+        border-radius: 10px;
+       }
+       .add-student-div{
+        height: 490px;
+        width: 482px;
+       }
+       .add-student-form{
+        margin-top: 40px;
+        margin-bottom: 40px;
+       }
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,166 @@
+.AdminHome-main-container {
+  width: 100%;
+  height: 99vh;
+}
+.AdminHomeBgVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.admin-login-form-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.admin-login-form-div {
+  width: 400px;
+  height: 560px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.loginLogo {
+  height: 140px;
+  width: 140px;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+.admin-login-text {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ddd6d6;
+}
+
+.admin-login-details-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-login-details-sub {
+  display: flex;
+  flex-direction: column;
+}
+.admin-login-msg {
+  text-align: justify;
+  line-height: 1.8;
+}
+.admin-login-span {
+  font-family: Montserrat;
+  color: #3f3f43;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.admin-login-details {
+  font-family: Montserrat;
+  color: #3f3f43;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  padding: 5px 0 5px 0;
+  line-height: 2;
+}
+
+.admin-login-name {
+  margin-top: -25px;
+}
+
+.log-in-input-email {
+  padding: 15px;
+  margin: 20px 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #1b1b1a;
+  color: white;
+  border-radius: 1px;
+  border-color: white;
+}
+.log-in-input-pass {
+  padding: 15px;
+  margin: 20px 0;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: #1b1b1a;
+  color: white;
+  border-radius: 1px;
+  border-color: white;
+}
+.log-in-input-btn {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 15px;
+  width: 150px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border-color: rgb(130, 130, 163);
+}
+.log-in-input-btn:hover {
+  background-color: #0f0f0f;
+}
+
+.pass-match-msg-log-in {
+  width: 190px;
+  color: #ff3c00;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px;
+}
+
+@media (min-width: 412px) {
+  .login-input-fields {
+    width: 250px;
+  }
+}
+@media (max-width: 412px) {
+  .admin-login-form-div {
+    width: 300px;
+  }
+}
+
+
+
+/* shake animation */
+
+/* .shake {
+  animation: shake-animation 3.72s ease-in infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes shake-animation {
+  0% { transform:translate(0,0) }
+ 1.78571% { transform:translate(5px,0) }
+ 3.57143% { transform:translate(0,10px) }
+ 5.35714% { transform:translate(5px,0) }
+ 7.14286% { transform:translate(10px,0) }
+ 8.92857% { transform:translate(5px,0) }
+ 10.71429% { transform:translate(0,0) }
+ 100% { transform:translate(0,0) }
+} */

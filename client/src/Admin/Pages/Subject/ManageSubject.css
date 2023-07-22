@@ -1,0 +1,50 @@
+.manage-subject-main {
+  display: flex;
+  flex-direction: row;
+}
+.manage-subject-container {
+  width: -webkit-fill-available;
+  background-color: #101010;
+}
+.manage-subject-div {
+  margin: 20px;
+}
+.subject-table-div {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* manage-sub-expanded-com-div */
+
+.manage-sub-expanded-com-div {
+  padding: 20px;
+  margin-bottom: -15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background: #112127;
+}
+
+.search-input-table{
+  padding: 4px;
+  height: 40px;
+  margin-right: 15px;
+  padding-left: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.csvlink{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.csvlink:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.search-n-export-div{
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}

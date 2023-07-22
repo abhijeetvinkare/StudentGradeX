@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700;800&display=swap');
+
+.dashboard-main{
+    display: flex;
+    flex-direction: row;
+}
+.dashboard-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+.dashboard-div{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-heading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.dashboard-heading{
+    font-size: 80px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+
+    background: #a80077;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.counter-cards-main{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.counter-cards-box{
+    width: 255px;
+    height: 147px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 5px;
+    transition: all .3s;
+    margin:10px 9px 30px 9px ;
+}
+.counter-cards-div{
+    width: 250px;
+    height: 140px;
+    background-color: #1A1A1A;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+.counter-cards-div:hover{
+    transform: scale(0.98);
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+.counter-card-logo{
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.counter-number-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.number-count{
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.counter-card-p{
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 20px;
+}

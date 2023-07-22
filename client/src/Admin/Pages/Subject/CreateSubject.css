@@ -1,0 +1,129 @@
+.create-subject-main{
+    display: flex;
+    flex-direction: row;
+}
+.create-subject-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+.create-subject-form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 402px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    
+   }
+   
+.card2 {
+    width: 400px;
+    background-color: #1a1a1a;
+    border-radius:20px;
+    transition: all .2s;
+}
+   
+.card2:hover {
+    transform: scale(0.99);
+    border-radius: 20px;
+}
+   
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+.createsubject-btn-create{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    width: 120px;
+    height: 48px;
+    border-radius: 6px;
+    margin-top:0px;
+    margin-left: 0px;
+    border-radius: 9px;
+    background: #d5f365;
+
+}
+
+.createsubject-btn-create:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+}
+   
+.createsubject-btn-create:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+}
+
+.create-sub-lbl{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.create-sub-lbl2{
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.create-sub-form-div{
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.create-sub-input{
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 6px;
+}
+.form-ex-span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#semester{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+}
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+.create-sub-lblsubtype{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.crt-sub-radio-div{
+    display: flex;
+}
+.crt-sub-radio-div2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}

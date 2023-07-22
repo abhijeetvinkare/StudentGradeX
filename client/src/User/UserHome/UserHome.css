@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500&display=swap');
+.AdminHome-main-container {
+    width: 100%;
+    height: 99vh;
+  }
+  .AdminHomeBgVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .admin-login-form-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .user-home-form-div {
+    width: 350px;
+    height: 520px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0.625rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .loginLogo {
+    height: 140px;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 22px;
+  }
+  .admin-login-text {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ddd6d6;
+  }
+  
+  .admin-login-details-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .admin-login-details-sub {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seatinput-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-home-seat-lbl{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .user-home-input-seatno {
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #ffff;
+    color: black;
+    border-radius: 5px;
+    border-color: rgb(40, 36, 70);
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .result-submit-input-btn {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 15px;
+    width: -webkit-fill-available;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: rgb(130, 130, 163);
+    align-self: flex-end;
+  }
+  .log-in-input-btn:hover {
+    background-color: #0f0f0f;
+  }
+  
+  @media (min-width: 412px) {
+    .login-input-fields {
+      width: 250px;
+    }
+  }
+  @media (max-width: 412px) {
+    .admin-login-form-div {
+      width: 300px;
+    }
+  }
+  

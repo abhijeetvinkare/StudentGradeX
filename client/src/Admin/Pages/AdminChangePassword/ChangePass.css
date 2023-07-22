@@ -1,0 +1,48 @@
+#admin-changepass-box1{
+    width: 473px;
+    height: 402px;
+}
+#admin-changepass-box2{
+    width: 470px;
+    height: 400px;
+}
+.admin-changepass-formdiv{
+    margin-top: 10px;
+}
+.admin-newpass-div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.admin-changepass-input-box{
+    height: 40px;
+    width: 250px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.lbl-oldpass{
+    padding-left: 30px;
+}
+.lbl-newpass{
+    padding-left: 23px;
+}
+.adminpass-lbl{
+    color:#979798;
+}
+.admin-changepass-btn-div{
+    text-align: end;
+}
+.pass-match-msg{
+    margin-left: 140px;
+    margin-top: 10px;
+    width: 200px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 5px;
+}
+#admin_change_pass_btn{
+    margin-top: 4px;
+}

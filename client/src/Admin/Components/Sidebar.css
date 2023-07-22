@@ -1,0 +1,187 @@
+.sidebar-container {
+  width: 300px;
+  height: 100vh;
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  transition: 0.5s;
+  padding-left: 5px;
+}
+
+.sidebar-heading-div {
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.logo-sidebar {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+}
+
+.logo-sidebar:hover {
+  cursor: pointer;
+}
+.dashbordb-btn-div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.dashboard-btn {
+  padding: 10px;
+  background-color: #1a1a1a;
+  outline: none;
+  border: none;
+  color: #979798;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  width: inherit;
+  font-size: 18px;
+}
+.dashboard-btn:hover {
+  color: #1fcb4f;
+}
+.accordion-sub-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #141516;
+}
+.accordion-sub-menu-btn {
+  text-align: left;
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  border: none;
+  width: -webkit-fill-available;
+}
+
+.accordion-item-div {
+  margin-left: 0px;
+  margin-right: -10px;
+}
+.accordion-sub-menu-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: #141516;
+  color: #979798;
+}
+.accordion-sub-menu-btn:hover {
+  background-color: #1a1a1a;
+  color: #979798;
+}
+.accordion-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* changin defalut Accordion css */
+button.accordion-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #979798;
+  margin-left: 0px;
+}
+button.accordion-button:hover {
+  color: #1fcb4f;
+}
+button.accordion-button:not(.collapsed) {
+  color: #1fcb4f;
+  background-color: #1a1a1a;
+}
+button.accordion-button:focus {
+  z-index: 0;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.sidebar-span-div-main {
+  margin-left: 23px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+.sidebar-span-div-extra {
+  margin-left: 23px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.sidebar-span {
+  font-family: "Montserrat", sans-serif;
+  color: #4e4d4d;
+  font-size: 15px;
+  font-weight: 500;
+}
+.sidebar-span-extra {
+  align-self: flex-start;
+  font-family: "Montserrat", sans-serif;
+  color: #4e4d4d;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 23px;
+  margin-bottom: 5px;
+}
+
+.sidebar-change-pass-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+#sidebar-change-pass-div {
+  position: absolute;
+  bottom: 0;
+}
+#admin-change-pass-btn {
+  margin-left: 6px;
+}
+.admin-change-pass-btn {
+  padding: 10px;
+  background-color: #1a1a1a;
+  outline: none;
+  border: none;
+  color: #979798;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-color: #1a1a1a;
+  margin-left: -22px;
+}
+
+.admin-change-pass-btn:hover {
+  /* background-color: #000000d0; */
+  color: #1fcb4f;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  background:#1A1A1A
+}
+
+::-webkit-scrollbar-thumb {
+  /* -webkit-border-radius: 10px; 
+     border-radius: 10px;  */
+  background: #2b3647;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(82, 68, 68, 0.5);  */
+}

@@ -1,0 +1,12 @@
+.manage-result-main{
+    display: flex;
+    flex-direction: row;
+
+}
+.manage-result-container{
+    width: -webkit-fill-available;
+    background-color: #101010;
+}
+.manage-result-div{
+    margin: 20px;
+}

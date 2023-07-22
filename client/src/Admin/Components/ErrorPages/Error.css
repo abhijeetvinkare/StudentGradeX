@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Ysabeau+Office:ital,wght@1,700&display=swap');
+
+.eror-maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error-heading-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.eror-heading{
+    font-size: 15rem;
+    font-family: 'Diphylleia', serif;
+    color: white;
+}
+.error-para{
+    font-size: 2rem;
+    width: 500px;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    color: #7e7575;
+}
+
+.err-button{
+    width: 115px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 30px;
+}
+.err-button:hover{
+    box-shadow: 0 0 100px 0px #4cee6f;
+}
+
+@media screen and (max-width: 500px) {
+    .error-para{
+        width: 300px;
+        font-size: 1.7rem;
+    }
+    .eror-heading{
+        font-size: 8rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .error-para{
+        width: 250px;
+        font-size: 1.7rem;
+    }
+  }
