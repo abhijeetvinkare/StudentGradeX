@@ -71,5 +71,69 @@ Students can perform the following tasks:
 
 - View their results on a semester-wise basis, tracking their academic performance over different periods.
 - Check real-time results for the current semester to stay informed about their academic performance and progress.
-- Access previous semester results to review their academic performance over time and gauge their progress.
+- Access previous semester results to review their academic performance over time and gauge their progress.  
 
+
+  
+# 🚀 Technologies
+
+- JavaScript
+- React
+- Node
+- Express
+- MongoDB
+
+
+
+# 🌱 Minimal Requirements
+
+- NPM/Yarn LTS
+- NodeJs
+
+
+
+## 🌱 Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`MONGO_URI` your monngoDB url in /server/config.env file
+
+`SecreatKey` for JWT /server/config.env file. 
+
+
+
+## 💪 Tech Stack
+
+**Client:** HTML , CSS , JavaScript , React 
+
+**Server:** Node , Express
+
+**DataBase:** MongoDB
+
+
+
+## 🏄‍♂️ Demo
+
+https://studentgradex.netlify.app/
+
+
+
+# 🤵 Author
+
+    Abhijeet Vinkare
+
+- gmail: <abhijeetvinkare@gmail.com>
+- Twitter: [@karanvinkare](https://twitter.com/karanvinkare)
+- Github: [@abhijeetvinkare](https://github.com/abhijeetvinkare)
+- LinkedIn: [@abhijeet-vinkare-2956a61ab](https://linkedin.com/in/abhijeet-vinkare-2956a61ab)
+
+
+## 👩‍🍳 Feedback
+
+If you have any feedback, please reach out to us at Gmail:abhijeetvinkare@gmail.com
+
+
+
+# 🔏 License
+
+Copyright © 2022 [Abhijeet Vinkare <abhijeetvinkare@gmail.com>](https://github.com/abhijeetvinkare)
