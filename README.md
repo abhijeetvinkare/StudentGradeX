@@ -25,7 +25,7 @@ To access the Admin Module of StudentGradeX, please follow these steps:
 ```
 1. Go to: `https://studentgradex.netlify.app/admin`
 2. Username: `admin@example.com`
-3. Password: `admin@123`
+3. Password: `admin@1234`
 ```
 
 Upon successful login, the administrator will be directed to a personalized dashboard with administrative privileges. The administrator can perform the following tasks:
