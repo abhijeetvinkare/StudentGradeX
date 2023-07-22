@@ -59,12 +59,12 @@ Upon logging in with their credentials, teachers will be redirected to their per
 
 ### Student:
 
-To access the Student Module of StudentGradeX, please use one of the following credentials:
+To provide you with a demonstration of the Student Module of StudentGradeX, please use the following credentials:
 
 ```
-1. Seat No: `ZX5454`
-2. Seat No: `ZX5455`
-3. Seat No: `ZY5454`
+1. Seat No: `ZX5454` // I Sem Result Pass
+2. Seat No: `ZX5455` // I Sem Result Backlog
+3. Seat No: `ZY5454` // First Year (I & II Sem) Result Pass 
 ```
 
 Students can perform the following tasks:
@@ -122,15 +122,15 @@ https://studentgradex.netlify.app/
 
     Abhijeet Vinkare
 
-- gmail: <abhijeetvinkare@gmail.com>
-- Twitter: [@karanvinkare](https://twitter.com/karanvinkare)
-- Github: [@abhijeetvinkare](https://github.com/abhijeetvinkare)
-- LinkedIn: [@abhijeet-vinkare-2956a61ab](https://linkedin.com/in/abhijeet-vinkare-2956a61ab)
+- gmail : <abhijeetvinkare@gmail.com>
+- Twitter : [@karanvinkare](https://twitter.com/karanvinkare)
+- Github : [@abhijeetvinkare](https://github.com/abhijeetvinkare)
+- LinkedIn : [@abhijeet-vinkare-2956a61ab](https://linkedin.com/in/abhijeet-vinkare-2956a61ab)
 
 
 ## 👩‍🍳 Feedback
 
-If you have any feedback, please reach out to us at Gmail:abhijeetvinkare@gmail.com
+If you have any feedback, please reach out to us at Gmail : abhijeetvinkare@gmail.com
 
 
 
